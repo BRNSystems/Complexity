@@ -2,7 +2,7 @@
 ## Build Env
 ##
 
-FROM ubuntu AS builder
+FROM ubuntu:kinetic AS builder
 
 WORKDIR /usr/src/app
 
