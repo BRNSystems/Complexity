@@ -2,7 +2,7 @@
 ## Build Env
 ##
 
-FROM ubuntu AS builder
+FROM ubuntu:24.10 AS builder
 
 WORKDIR /usr/src/app
 
